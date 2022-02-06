@@ -1,0 +1,31 @@
+*{
+    margin:0;
+    padding: 0;
+    font-family:'poppins', sans-serif;
+}
+.banner{
+    position: relative;
+    background:linear-gradient(rgba(0, 0, 0, 0.1),rgba( 0,0,0,0.1)),url('images/bg (1).jpg');
+    height: 80vh;
+    background-size:cover;
+    background-position: center; 
+    padding: 150px 0 100px;
+  }
+  .btn{
+        background-color: #8B0000;
+        color: #fff;
+        outline: none;
+    }
+    .btn:hover{
+        color:#ffffff;
+        background-color: #8B0000;
+    }
+    a:hover{
+      color: #8B0000 !important;
+    }
+    .dropdown-menu.dropdown-item{
+      background-color: #8B0000 !important;
+    }
+    .nav-item .active {
+      color:#8B0000;
+    }
